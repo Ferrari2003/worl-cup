@@ -53,59 +53,65 @@ body{
 /* header-end. */
 
 /* center-style strat */
-.main_tag{
-    margin-left: 345px;
-    margin-top: 150px;
-}
-.flex-er-class{
+.side_box {
+    margin-left: 370px;
+    margin-top: 40px;
+    max-width: 300px;
+    background-color: black;
+    height: 250px;
+    border-radius: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: darkslateblue;
-    width: 280px;
-    padding: 30px;
-    box-shadow: 10px 20px 30px;
-    border-radius: 15px;
-   
-}
-.upcomming_section{
- 
-}
-.text_item{
-    background-color: white;
-    border-radius: 10px;
+    flex-direction: column;
+    padding: 7px;
+  }
+  
+  .upcoming_match_button {
+    display: block;
+    text-decoration: none;
+    width: 200px;
+    background-color: #fff;
+    padding: 15px;
+    color: black;
+    border: none;
+    border-radius: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    font-style: italic;
+  
     text-align: center;
-    transition:ease 1s;
-   
-}
-.text_item:hover{
-    background-color: deeppink;
-    color: white;
-}
-.text_item1{
-    background-color: white;
-    text-align: center;
-    border-radius: 10px;
-    transition:ease 1s;
-   
-}
-.text_item1:hover{
-    background-color:black;
-    color: white;
-}
-.text_item2{
-    background-color:red;
-    text-align: center;
-    border-radius: 10px;
-    color: white;
-    transition:ease 1s;
-}
-.text_item2:hover{
-    background-color:gold;
-    color: black
-}
-
-
+  }
+  
+  .all_group_btn {
+    width: 200px;
+    background-color: #fff;
+    padding: 15px;
+    color: black;
+    border: none;
+    border-radius: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    font-style: italic;
+    margin-top: 30px;
+    cursor: pointer;
+  }
+  
+  .blog_button {
+    color: #fff;
+    width: 200px;
+    background-color: rgba(255, 0, 0, 0.575);
+    padding: 15px;
+  
+    border: none;
+    border-radius: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    font-style: italic;
+    margin-top: 30px;
+    cursor: pointer;
+  }
+  
 
 .box_center{
     display: flex;

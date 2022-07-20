@@ -1,6 +1,7 @@
 body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
+    padding: 0;
 }
 /* header-strat */
 .header_section{
@@ -22,9 +23,18 @@ body{
 .header{
     font-size: 20px;
 }
+.header p:hover{
+    color: white;
+    font-style: italic;
+    
+}
 .text_1{
     font-size: 50px;
     color: white;
+}
+.text_1:hover{
+    color: coral;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .link{
    text-decoration: none; 
@@ -36,6 +46,7 @@ body{
 .link:hover{
     background-color: chartreuse;
     color: black;
+    transition: ease 1s;
 }
 .header_img img{
   width: 100%;
@@ -50,55 +61,90 @@ header-End
 */
 
 /*-------- center-Strat--------- */
-main{
-    margin-left: 500px;
-}
-.center_section{
+.side_box {
+    margin-left: 400px;
+    max-width: 300px;
+    background-color: black;
+    height: 250px;
+    border-radius: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 220px;
-    padding: 10px;
-    background-color:slategray;
-    box-shadow: 10px 20px 30px;
-    border-radius: 10px;
-}
-.container_1{
-    bottom: 150px;
-}
-.button{
-   background-color: red;
-   text-align: center;
-   border-radius: 10px;
-  color: white;
-}
-.button:hover{
-  background-color: blue;
-  color: chartreuse;
-  transition: ease 1s;
-}
-.button_1{
-   text-align: center;
-   border-radius: 10px;
-   background-color: white;
-}
-.button_1:hover{
-    background-color:dimgray;
-    color: white;
+    flex-direction: column;
+    padding: 7px;
+  }
+  
+  .upcoming_match_button { 
+    display: block;
+    text-decoration: none;
+    width: 200px;
+    background-color: #fff;
+    padding: 15px;
+    color: black;
+    border: none;
+    border-radius: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    font-style: italic;
+  
+    text-align: center;
+  }
+  .upcoming_match_button:hover{
+    background-color: aqua;
     transition: ease 1s;
-}
-.button_2{
-   text-align: center;
-   border-radius: 10px;
-   color:black;
-   background-color: white;
-   
-}
-.button_2:hover{
-    background-color: crimson;
-    color: white;
+    color: black;
+  }
+  
+  .all_group_btn {
+    width: 200px;
+    background-color: #fff;
+    padding: 15px;
+    color: black;
+    border: none;
+    border-radius: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    font-style: italic;
+    margin-top: 30px;
+    cursor: pointer;
+  }
+  .all_group_btn:hover{
+    color:wheat;
     transition: ease 1s;
-}
+    background-color:blueviolet;
+  }
+  .upcoming_match_button {
+    color: #fff;
+    width: 200px;
+    background-color: rgba(255, 0, 0, 0.575);
+    padding: 15px;
+  
+    border: none;
+    border-radius: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    font-style: italic;
+    margin-top: 30px;
+    cursor: pointer;
+  }
+  .blog_button{
+    color: black;
+    width: 200px;
+    padding: 15px;
+  
+    border: none;
+    border-radius: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    font-style: italic;
+    margin-top: 30px;
+    cursor: pointer;
+  }
+  .blog_button:hover{
+    background-color: coral;
+    transition: ease 1s;
+    color: whitesmoke;
+  }
 /* center side end */
 
  /* center- mudale */
