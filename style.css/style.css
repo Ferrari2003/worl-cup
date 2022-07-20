@@ -28,9 +28,16 @@ body{
     color: gray;
     font-size: 15px;
 }
+.header_section:hover{
+    color: cornflowerblue;
+}
 #text{
     font-size: 40px;
     color: white;
+}
+#text:hover{
+    color: crimson;
+    font-style: italic;
 }
 .link_button{
     text-decoration: none;
@@ -42,6 +49,7 @@ body{
 .link_button:hover{
     color: black;
     background-image: linear-gradient(orange, tomato);
+    transition: ease 1s;
 }
 .header_img img{ 
     width: 100%;
@@ -82,7 +90,11 @@ body{
   
     text-align: center;
   }
-  
+  .upcoming_match_button:hover{
+    background-color: crimson;
+    transition: ease 1s;
+    color: white;
+  }
   .all_group_btn {
     width: 200px;
     background-color: #fff;
@@ -96,7 +108,11 @@ body{
     margin-top: 30px;
     cursor: pointer;
   }
-  
+  .all_group_btn:hover{
+    background-color: lightpink;
+    transition: ease 1s;
+    color: #fff;
+  }
   .blog_button {
     color: #fff;
     width: 200px;
@@ -112,7 +128,11 @@ body{
     cursor: pointer;
   }
   
-
+.blog_button:hover{
+    background-color: lightseagreen;
+    transition: ease 1s;
+    color:black;
+}
 .box_center{
     display: flex;
     justify-content: center;
