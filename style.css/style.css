@@ -67,12 +67,23 @@ body{
     border-radius: 15px;
     
 }
-.text_item{
-    
+.text_item{ 
     background-color: white;
     border-radius: 10px;
     text-align: center;
     
+}
+.text_item:hover{
+    background-color: deeppink;
+    color: white;
+}
+.text_item1:hover{
+    background-color:black;
+    color: white;
+}
+.text_item2:hover{
+    background-color:gold;
+    color: black
 }
 .text_item1{
     background-color: white;
@@ -117,13 +128,20 @@ body{
 
 .footer_section{
     background-color: black;
-    padding: 140px;
+    padding: 80px;
 }
 .fast{
     color: white;
     font-size: 25px;
     font-style: italic;
     text-align: center;
+}
+.fast:hover{
+    color: cyan;
+    font-size: 40px;
+    border: 2px solid lightcoral;
+
+
 }
 hr{
     margin: 100px;
@@ -136,6 +154,12 @@ hr{
 nav ul{
  list-style: none;
 }
+ul li:hover{
+    background-color: coral;
+    font-size: 25px;
+    border-radius: 10px;
+    padding: 10px;
+}
 nav ul li{
     display: inline-flex;
     margin-right: 30px;
@@ -144,4 +168,9 @@ nav ul li{
 .footer_2{
     text-align: center;
     font-size: 25px;
+}
+.footer_2 a:hover{
+    color: white;
+    font-size: 30px;
+    border: 2px solid salmon;
 }
