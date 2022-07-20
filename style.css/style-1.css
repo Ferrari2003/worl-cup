@@ -24,6 +24,7 @@ body{
 }
 .text_1{
     font-size: 50px;
+    color: white;
 }
 .link{
    text-decoration: none; 
@@ -135,7 +136,7 @@ main{
        transition: ease 1s;
     }
     .fast:hover{
-        color: cyan;
+        color:deeppink;
         font-size: 40px;
         border: 2px solid lightcoral;
     
