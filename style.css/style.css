@@ -1,0 +1,147 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+/* header strat */
+.main_header{
+    margin-left: 250px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.section_titile{
+    display: flex;
+    margin-top: 50px;
+    width: 70%;
+    height: 70%;
+    padding: 150px;
+    box-shadow: 10px 20px 40px;
+    background-color:black;
+    border-radius: 15px;
+}
+.header_section{
+    padding-top:80px;
+    margin-left: 50px;
+    color: gray;
+    font-size: 15px;
+}
+#text{
+    font-size: 40px;
+    color: white;
+}
+.link_button{
+    text-decoration: none;
+    color: white;
+    background-color: red;
+    padding: 10px;
+    border-radius: 5px;
+}
+.link_button:hover{
+    color: black;
+    background-image: linear-gradient(orange, tomato);
+}
+.header_img{ 
+    padding-left: 40px;
+    padding-top: 80px;
+    margin-left: 100px;
+}
+/* header-end. */
+
+/* center-style strat */
+.main_tag{
+    margin-left: 345px;
+    margin-top: 150px;
+    
+}
+.center_section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkslateblue;
+    width: 280px;
+    padding: 30px;
+    box-shadow: 10px 20px 30px;
+    border-radius: 15px;
+    
+}
+.text_item{
+    
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    
+}
+.text_item1{
+    background-color: white;
+    text-align: center;
+    border-radius: 10px;
+    
+}.text_item2{
+    background-color:red;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+}
+
+.box_center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 600px;
+    margin-bottom: 200px;
+     }
+     .center{
+       display: grid;
+       grid-template-columns: repeat(3, 1fr);
+       gap:20px;
+     }
+     .center_1{
+       box-shadow: 10px 20px 40px;
+       padding: 15px;
+       border-radius: 5px;
+     }
+    
+     .center_1 h3{
+       border: 2px solid black;
+       width: 100px;
+       margin-left: 15px;
+       text-align: center;
+     }
+.img_icon{
+    margin-right: 15px;
+}
+/* footer-strat */
+
+.footer_section{
+    background-color: black;
+    padding: 140px;
+}
+.fast{
+    color: white;
+    font-size: 25px;
+    font-style: italic;
+    text-align: center;
+}
+hr{
+    margin: 100px;
+}
+.footer_1{
+    display: flex;
+    justify-content: center;
+    
+}
+nav ul{
+ list-style: none;
+}
+nav ul li{
+    display: inline-flex;
+    margin-right: 30px;
+    color: white;
+}
+.footer_2{
+    text-align: center;
+    font-size: 25px;
+}
