@@ -154,7 +154,7 @@ main{
      list-style: none;
     }
     ul li:hover{
-        background-color: coral;
+        background-color:skyblue;
         font-size: 25px;
         border-radius: 10px;
         padding: 10px;
